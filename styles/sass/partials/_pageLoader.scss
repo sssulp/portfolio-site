@@ -1,0 +1,41 @@
+/* page loader */
+.welcome-loader {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F6F6F6;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-size: 4.3em;
+}
+
+.intro {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.intro.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+
+.intro.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 1s;
+}

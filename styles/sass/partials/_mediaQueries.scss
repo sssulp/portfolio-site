@@ -1,0 +1,139 @@
+@media (max-width: 940px) {
+    .main-menu {
+        width: 35%;
+    }
+
+    .backronym {
+        height: 50%;
+    }
+
+    .backronym-summary {
+        padding-top: 0;
+    }
+
+    .skills {
+        width: 100%;
+    }
+}
+
+@media (max-width: 810px) {
+    .main-menu {
+        width: 40%;
+    }
+}
+
+@media (max-width: 710px) {
+    .main-menu {
+        width: 50%;
+    }
+
+    .backronym {
+        height: 50%;
+    }
+
+}
+
+@media (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        transition: 0.5s all;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-menu {
+        background-color: rgb(20, 20, 20);
+        position: absolute;
+        margin-top: 0px;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        opacity: 0;
+        transition: 0.5s all;
+        justify-content: center;
+    }
+
+    .main-menu li {
+        padding: 30px;
+        font-size: 2em;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .mobile-logo a {
+        font-family: 'Times New Roman';
+        text-decoration: none;
+        color: #000;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .project-section {
+        margin-bottom: 50px;
+    }
+
+    .profile-photo img {
+        display: none;
+    }
+
+    .self-portrait img {
+        width: 100%;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-text {
+        padding-right: 0px;
+    }
+
+    .toolkit {
+        text-align: center;
+    }
+
+    .skills {
+        width: 100%;
+    }
+}
+
+.mobile-active {
+    transition: 0.5s all;
+    opacity: 100;
+}
+
+.mobile-active li a {
+    color: #cacaca;
+    font-size: 1.8em;
+}
+.mobile-active li a:hover {
+    color: #ffffff;
+    background-color: rgb(20, 20, 20);
+}
+
+.logo-active a {
+    color: #F6F6F6;
+    transition: 0.5s all;
+}
+
+.nav-active {
+    background-color: rgb(20, 20, 20);
+    transition: 0.5s all;
+}

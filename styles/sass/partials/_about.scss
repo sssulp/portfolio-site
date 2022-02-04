@@ -1,0 +1,45 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    width: 70%;
+    padding-right: 80px;
+}
+
+.profile-photo {
+    width: 30%;
+}
+
+.profile-photo img {
+    display: block;
+    width: 80%;
+    border-radius: 35px;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.skills li {
+    list-style: none;
+    text-align: center;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+}
+
+.skills img {
+    width: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,119 @@
+.projects-window {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.projects-subheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15px;
+    font-size: 1.9em;
+    position: relative;
+    bottom: 190px;
+    right: 61px;
+    z-index: -1;
+}
+
+.projects-intro {
+    font-size: 4.6em;
+    font-weight: 500;
+}
+
+.project-section {
+    margin-bottom: 150px; 
+}
+
+.willow {
+    margin-top: auto;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 315px;
+    margin-bottom: 3px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.willow-summary {
+    background-color: #acdaa6;
+    padding: 25px;
+    width: 93%;
+}
+
+.willow-summary ul,
+.anime-summary ul,
+.backronym-summary ul {
+    display: flex;
+    padding-left: 0;
+}
+
+
+.willow-summary ul li,
+.anime-summary ul li,
+.backronym-summary ul li {
+    list-style-type: none;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+.willow img {
+    width: 100%;
+}
+
+.animeseeker {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #86b6dd;
+    margin-bottom: 3px;
+}
+
+.anime-summary {
+    padding: 26px;
+    width: 90%;
+}
+
+.backronym {
+    width: 100%;
+    display: flex;
+    height: 315px;
+}
+
+.backronym-summary {
+    width: 93%;
+    padding: 25px;
+    background-color: #e7bc6b;
+    border-bottom-right-radius: 20px;
+}
+
+.willow img,
+.backronym img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.backronym img {
+    border-bottom-left-radius: 20px;
+}
+
+.animeseeker video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.button {
+    background-color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-family: 'Poppins';
+    color: #000;
+    padding: 5px 25px;
+    transition: 300ms all;
+}
+
+.button:hover {
+    background-color: #C7C7C7;
+}

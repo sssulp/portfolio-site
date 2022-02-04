@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #F6F6F6;
+}
+
+.logo {
+    color: black;
+    font-size: 1.6em;
+}
+
+.ampersand {
+    font-family: 'Times New Roman';
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 30%;
+    padding-left: 0;
+}
+
+.main-menu a {
+    color: #141414;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+
+.main-menu a:hover {
+    color: #C7C7C7;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    transition: all 300ms ease;
+}
+
+.toggle .line-one {
+    transform: rotate(-45deg) translate(-5px,6px);
+    background-color: #F6F6F6;
+}
+
+.toggle .line-two {
+    opacity: 0;
+}
+
+.toggle .line-three {
+    transform: rotate(45deg) translate(-5px,-6px);
+    background-color: #F6F6F6;
+}
