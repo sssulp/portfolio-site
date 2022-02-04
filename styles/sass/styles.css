@@ -447,7 +447,7 @@ header img {
 
 .anime-summary {
   padding: 26px;
-  width: 90%;
+  width: 50%;
 }
 
 .backronym {
@@ -475,7 +475,7 @@ header img {
 }
 
 .animeseeker video {
-  width: 100%;
+  width: 50%;
   -o-object-fit: cover;
      object-fit: cover;
 }
