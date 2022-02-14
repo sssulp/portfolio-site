@@ -65,13 +65,14 @@
 .animeseeker {
     overflow: hidden;
     display: flex;
+    width: 100%;
     flex-direction: row-reverse;
     background-color: #86b6dd;
     margin-bottom: 3px;
 }
 
 .anime-summary {
-    padding: 26px;
+    padding: 25px;
     width: 50%;
 }
 

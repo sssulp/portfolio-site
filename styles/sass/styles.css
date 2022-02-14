@@ -354,6 +354,7 @@ header {
   width: 50%;
   padding: 35px;
   font-size: 1.3em;
+  line-height: 1.7em;
 }
 
 .header-text span {
@@ -440,13 +441,14 @@ header img {
 .animeseeker {
   overflow: hidden;
   display: flex;
+  width: 100%;
   flex-direction: row-reverse;
   background-color: #86b6dd;
   margin-bottom: 3px;
 }
 
 .anime-summary {
-  padding: 26px;
+  padding: 25px;
   width: 50%;
 }
 
@@ -501,8 +503,9 @@ header img {
 }
 
 .about-text {
-  width: 70%;
+  width: 50%;
   padding-right: 80px;
+  line-height: 1.6em;
 }
 
 .profile-photo {
